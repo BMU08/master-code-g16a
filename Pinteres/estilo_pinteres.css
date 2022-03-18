@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+}
+
+.Galeria{
+    width: 400px;
+    padding: 0px;
+    border-radius: 10%;
+    box-shadow: 20px;
+    display: inline-block;
+
+}
+
+.imagen1{
+    width: 200px;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 3px;
+    display: inline-block;
+    align-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+

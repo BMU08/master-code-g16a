@@ -1,0 +1,28 @@
+@import url(font-family: 'Maven Pro', sans-serif;);
+body{
+    background-color: rgb(226, 226, 226);
+}
+
+header{
+    background-color: rgb(212, 255, 255);
+    border-radius: 5px;
+    border: rgb(73, 73, 73) solid 5px;
+}
+.blanco{
+    font-family: "Maven Pro", sans-serif;
+    font-size: 21px;
+
+}
+section{
+    background-color: rgb(219, 219, 219);
+}
+section .colores{
+    border-radius: 5px;
+    border: rgb(73, 73, 73) solid 5px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+p {
+
+}
