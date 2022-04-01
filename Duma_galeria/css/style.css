@@ -1,0 +1,51 @@
+body{
+    background-color: lightgrey;
+    font-family: 'Poppins';
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header{
+    background-color: rgb(255, 255, 255);
+    height: 10vh;
+    width: 100%;
+}
+
+#search{
+    background-color: rgb(192, 192, 192);
+    width: 50%;
+}
+
+#search-box{
+    width: 100%;
+
+}
+
+.lupa{
+    height: 20px;
+}
+
+.logo{
+    height: 100px;
+}
+
+section{
+    background-color: rgb(126, 126, 126);
+    height: 10vh;
+    width: 100%;
+}
+
+
+
+
+footer{
+    background-color: rgb(255, 255, 255);
+    height: 10vh;
+    width: 100%;
+}
+
+
+

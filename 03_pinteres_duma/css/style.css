@@ -1,0 +1,179 @@
+body{
+    background-color: lightgrey;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    }
+
+header{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    height: 10vh;
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 10;
+}
+
+nav{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+}
+
+.logo{
+    height: 10vh;
+    margin-right: 30px;
+}
+
+.buscador_galeria{
+    align-items: center;
+    display:flex;
+    font-size: 0.1rem;
+    justify-content: space-between;
+    width: 60%;
+}
+
+input{
+    background-color: rgb(148, 148, 148);
+    border: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-size: .6rem;
+    width: 50%;
+}
+
+.button_inicio{
+    background-color: rgb(148, 148, 148);
+    border: none;
+    border-radius: 2px;
+	color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    margin-left: 15px;
+    text-decoration: none;
+    width: 10%;
+}
+.button_perfil{
+    background-color:  rgb(148, 148, 148);
+    border: none;
+    border-radius: 2px;
+	color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    margin-right: 15px;
+    text-decoration: none;
+    width: 10%;
+}
+
+.perfil{
+    align-items: center;
+    display: flex;
+    font-size: 0.8rem;
+    justify-content:center;
+    text-align: center;
+    width: 20%;
+}
+.user_name{
+    color: #757575;
+    font-family:'Poppins', sans-serif;
+    font-size: 12px;
+    margin-right: 5%;
+}
+.perfil_icon{
+    width: 10%;
+}
+
+section{
+    background-color: rgb(148, 148, 148);
+    height: 100%;
+    width: 100%;
+    margin-top: 10vh;
+}
+
+.galeria_arq{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 30px 30px; 
+    grid-template-areas: 
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."; 
+    justify-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60px;
+    
+}
+
+.galeria:hover{
+    border-radius: 5px;
+    filter: contrast(70%);
+}
+
+.galeria{
+    margin-top: 0px;
+    height: 200px;
+}
+
+
+footer{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 20vh;
+    width: 100%;
+}
+.logo_footer{
+    width: 20%;
+}
+.copy_right{
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+    justify-items: center;
+    margin-top: 30px;
+    text-align: center;
+    width: 60%;
+}
+.social_icons{
+    align-items: center;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.social_icons a{
+    justify-items: center;
+    }
+
+.instagram_icon{
+    align-items: center;
+    height: 2.5vh;
+    justify-items: center;
+    margin-bottom: 50px;
+    margin-right: 5px;
+}
+
+.facebook_icon{
+    align-items: center;
+    height: 2.5vh;
+    justify-items: center;
+    margin-bottom: 50px;
+    margin-left: 5px;
+}
+
+.youtube_icon{
+    align-items: center;
+    border-color: blueviolet;
+    height: 2.5vh;
+    justify-items: center;
+    margin-bottom: 50px;
+    margin-left: 5px;
+}
